@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap');
+
+body {
+    margin: 0%;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #323138;
+}
+
+.headbox {
+    background-color: #404055;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ValveLogo {
+    width: 300px;
+}
+
+.ValveContora {
+    font-size: 52px;
+    margin-top: 50px;
+    color: white;
+}
+
+.midas {
+    width: 200px;
+    margin-top: 40px;
+}
+
+.txtImg {
+    text-align: center;
+} 
+
+.midasTXT {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fixMidas {
+    color: #B3B3F9;
+    text-shadow: 2px 2px 5px black;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.boxMidas {
+    margin-top: 0px;
+    height: 200px;
+
+    background-image: url("https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/razor/razor_storm_surge.jpg");
+    background-position:center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dotaIcon {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-right: 80px;
+}
+
+.NaxyiDiv {
+    margin-top: 200px;
+    width: 100%;
+    height: 90px;
+    background-color: #404055;
+}
+
+.Naxyi {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
