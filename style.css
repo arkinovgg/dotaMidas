@@ -42,7 +42,7 @@ body {
 }
 
 .fixMidas {
-    color: #B3B3F9;
+    color: rgb(255, 208, 208);
     text-shadow: 2px 2px 5px black;
     font-size: 40px;
     margin-left: 80px;
@@ -78,4 +78,152 @@ body {
     font-size: 20px;
     text-align: center;
     padding-top: 30px;
+}
+
+@media (max-width: 430px) {
+    .fixMidas {
+        font-size: 21px;
+        margin-top: 70px;
+        margin-left: 20px;
+        color: rgb(255, 208, 208);
+    }
+
+    .dotaIcon {
+        width: 90px;
+        height: 90px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    .ValveLogo {
+        width: 125px;
+        height: 65px;
+    }
+
+    .ValveContora {
+        font-size: 27px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .midas {
+        width: 125px;
+        margin-top: 15px;
+    }
+
+    .midasTXT {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .NaxyiDiv {
+        margin-top: 304px;
+        width: 100%;
+        height: 90px;
+        background-color: #404055;
+    }
+}
+
+@media (max-width: 360px) {
+    .fixMidas {
+        font-size: 18px;
+        margin-top: 75px;
+        margin-left: 10px;
+        color: rgb(255, 208, 208);
+    }
+
+    .dotaIcon {
+        width: 75px;
+        height: 75px;
+        margin-top: 65px;
+        margin-right: 10px;
+    }
+
+    .ValveLogo {
+        width: 100px;
+        height: 52px;
+        margin-top: 4px;
+    }
+
+    .ValveContora {
+        font-size: 25px;
+        margin-top: 15px;
+        color: white;
+    }
+
+    .midas {
+        width: 100px;
+        margin-top: 40px;
+    }
+
+    .midasTXT {
+        color: white;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .NaxyiDiv {
+        margin-top: 230px;
+        width: 100%;
+        height: 90px;
+        background-color: #404055;
+    }
+
+    .boxMidas {
+        margin-top: 120px;
+        height: 200px;
+    
+        background-image: url("https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/razor/razor_storm_surge.jpg");
+        background-position:center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 430px) {
+    .fixMidas {
+        font-size: 21px;
+        margin-top: 55px;
+        margin-left: 20px;
+        color: rgb(255, 208, 208);
+    }
+
+    .dotaIcon {
+        width: 90px;
+        height: 90px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    .ValveLogo {
+        width: 125px;
+        height: 65px;
+    }
+
+    .ValveContora {
+        font-size: 27px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .midas {
+        width: 125px;
+        margin-top: 15px;
+    }
+
+    .midasTXT {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .NaxyiDiv {
+        margin-top: 304px;
+        width: 100%;
+        height: 90px;
+        background-color: #404055;
+    }
 }
